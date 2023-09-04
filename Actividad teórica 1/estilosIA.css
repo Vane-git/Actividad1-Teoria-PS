@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style-type: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilos de la galería de imágenes */
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border: 20px solid #333;
+    padding: 10px;
+}
+
+/* Estilos del formulario de contacto */
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+/* Estilos de la sección "Quién Mantiene" */
+#quien-mantiene {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+}
